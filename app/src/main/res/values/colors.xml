@@ -7,9 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="color_gallery">#EFEFEF</color>
-    <color name="color_astra">#FAF0C3</color>
-    <color name="color_sun_glow">#FDC13C</color>
-    <color name="color_tussock">#C6993B</color>
-    <color name="color_nugget">#D19422</color>
+    <color name="color_gray_gallery">#EFEFEF</color>
+    <color name="color_white_astra">#FAF0C3</color>
+    <color name="color_yellow_sun_glow">#FDC13C</color>
+    <color name="color_yellow_tussock">#C6993B</color>
+    <color name="color_yellow_nugget">#D19422</color>
 </resources>

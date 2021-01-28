@@ -15,8 +15,8 @@
     </style>
 
     <style name="CalculatorButton">
-        <item name="android:layout_width">@dimen/dp_0</item>
-        <item name="android:layout_height">@dimen/dp_0</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:textSize">@dimen/sp_40</item>
         <item name="android:layout_marginLeft">@dimen/dp_8</item>
         <item name="android:layout_marginRight">@dimen/dp_8</item>
@@ -42,7 +42,7 @@
     </style>
 
     <style name="ResultTextView">
-        <item name="android:layout_width">@dimen/dp_0</item>
+        <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/dp_16</item>
         <item name="android:layout_marginEnd">@dimen/dp_16</item>
