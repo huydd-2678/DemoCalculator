@@ -13,4 +13,38 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">@dimen/sp_40</item>
+        <item name="android:layout_marginLeft">@dimen/dp_8</item>
+        <item name="android:layout_marginRight">@dimen/dp_8</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+        <item name="android:layout_marginBottom">@dimen/dp_4</item>
+        <item name="cornerRadius">@dimen/dp_16</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+
+    <style name="NumberButton" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/color_gallery</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="OperatorButton" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/color_astra</item>
+        <item name="android:textColor">@color/color_tussock</item>
+    </style>
+
+    <style name="ShowResultButton" parent="CalculatorButton">
+        <item name="android:backgroundTint">@color/color_sun_glow</item>
+        <item name="android:textColor">@color/color_nugget</item>
+    </style>
+
+    <style name="ResultTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dp_16</item>
+        <item name="android:layout_marginEnd">@dimen/dp_16</item>
+    </style>
 </resources>
